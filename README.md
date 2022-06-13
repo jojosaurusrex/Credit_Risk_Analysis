@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit_Risk_Analysis 💳🎢
 
 ## Overview
 The purpose of this analysis was to introduce and apply different types of supervised machine learning techniques:
@@ -16,22 +16,22 @@ The purpose of this analysis was to introduce and apply different types of super
 ## Results
 Legend: 0 = HIGH RISK / 1 = LOW RISK
 
-INSERT HERE
+![17_1](https://user-images.githubusercontent.com/98374315/173294296-f65bbcf5-d450-4423-8311-e8d34e96a054.PNG)
 Figure 1. Naive Random Oversampling 
 
-INSERT HERE
+![17_2](https://user-images.githubusercontent.com/98374315/173294310-c8a4caa1-c10a-41c1-84b2-84c5613b0479.PNG)
 Figure 2. SMOTE Oversampling
 
-INSERT HERE
+![17_3](https://user-images.githubusercontent.com/98374315/173294320-87e132ab-8e2c-40d4-8f6f-87a15d80a122.PNG)
 Figure 3. Undersampling: Cluster Centroids
 
-INSERT HERE
+![17_4](https://user-images.githubusercontent.com/98374315/173294332-20f255e4-043b-48c5-8810-607ee04dba59.PNG)
 Figure 4. Combination (Over and Under) Sampling (SMOTEENN)
 
-INSERT HERE
+![17_5](https://user-images.githubusercontent.com/98374315/173294354-470a5141-425b-422e-92bb-4424e02203e7.PNG)
 Figure 5. Balanced Random Forest Classifier
 
-INSERT HERE
+![17_6](https://user-images.githubusercontent.com/98374315/173294383-29c0969b-31ee-4c52-bcbd-365c587b5a40.PNG)
 Figure 6. Easy Ensemble AdaBoost Classifier
 
 Figure 1 and Figure 2 look almost identical. In these figures, precision is extremely high for low risk and extremely low for high risk showing that tis is not a very good model due to the fact that there are no real cases where we should expect 100% precision for anything. If we ever do then we should be speculative of our data and/or our techniques getting to that point. The sensitivity for both low and high risks are about the same, and show a plausible result. F1 score drops for the high risk and goes up for the low risk, and that is because of the way f1 score is found, takes into account both sensitivity and precision. The accuracy seems to be pretty low as well.
